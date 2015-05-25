@@ -1,0 +1,10 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "blog_post"
+      author: "Paul M Furley"
+
+permalink: /:title
