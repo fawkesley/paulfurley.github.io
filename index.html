@@ -52,7 +52,7 @@ permalink: /
         <h1>Blog Highlights</h1>
         {% for post in site.posts %}
         {% if post.is_highlighted %}
-        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.snappy_title }} </h2>
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.snappy_title }}</a></h2>
         {% endif %}
         {% endfor %}
 
