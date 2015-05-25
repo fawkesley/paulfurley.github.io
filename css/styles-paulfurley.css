@@ -1,0 +1,8 @@
+span.navbar-site-title {
+  font-family: 'PT Serif', serif;
+  /* text-transform: uppercase;*/
+  font-variant: small-caps;
+  font-size: 45px;
+  float: left;
+  display: block;
+}
