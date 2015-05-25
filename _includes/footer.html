@@ -24,13 +24,14 @@
                     </div>
 
                     <div class="col-md-4 footer-widget">
-                        <h3> <i class="fa fa-star"></i> Hall of Fame</h3>
+                        <h3> <i class="fa fa-star"></i> Blog Highlights</h3>
                         <ul class="tales-list">
-                            <li><a href="index.html">Why we Need to Encrypt All Communication</a></li>
-                            <li><a href="#">Selling is a Function of Design. Not Vice-Versa.</a></li>
-                            <li><a href="#">It’s Hard To Come Up With Dummy Titles</a></li>
-                            <li><a href="#">Why the Internet is Full of Cats</a></li>
-                            <li><a href="#">Last Made-Up Headline, I Swear!</a></li>
+                          {% for post in site.posts %}
+                          {% if post.is_highlighted %}
+                          <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.snappy_title }}</a></li>
+                          {% endif %}
+                          {% endfor %}
+
                         </ul>
                     </div>
 

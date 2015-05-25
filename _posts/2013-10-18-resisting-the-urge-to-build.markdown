@@ -1,5 +1,6 @@
 ---
-title: Resisting the Urge to Build
+title: Resisting the Urge to Build (My New Startup Checklist)
+snappy_title: Resisting the Urge to Build
 permalink: /resisting-the-urge-to-build/
 is_highlighted: true
 image: resisting-the-urge-to-build-thumbnail.jpg

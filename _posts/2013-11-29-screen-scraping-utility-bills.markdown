@@ -1,5 +1,6 @@
 ---
 title: Screen Scrape Your Utility Bills
+snappy_title: Screen Scrape Your Utility Bills
 permalink: /screen-scraping-utility-bills/
 is_highlighted: true
 image: screen-scrape-your-utility-bills-thumbnail.png

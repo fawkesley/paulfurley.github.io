@@ -50,7 +50,14 @@ permalink: /
         </span>
 
         <h1>Blog Highlights</h1>
+        {% for post in site.posts %}
+        {% if post.is_highlighted %}
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.snappy_title }} </h2>
+        {% endif %}
+        {% endfor %}
+
       </div>
     </div>
+
     {% include social_buttons.html %}
 </div>
