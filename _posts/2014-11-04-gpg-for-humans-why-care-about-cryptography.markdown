@@ -1,9 +1,9 @@
 ---
 title: 'GPG For Humans, Part 1: Why Care About Cryptography?'
+snappy_title: "GPG For Humans, Part 1"
 permalink: /gpg-for-humans-why-care-about-cryptography/
 is_highlighted: true
 image: gpg-for-humans-thumbnail.png
-highlight_name: "GPG For Humans, Part 1"
 bfa_virtual_template:
   - hierarchy
 sfw_pwd:
