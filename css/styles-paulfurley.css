@@ -6,3 +6,7 @@ span.navbar-site-title {
   float: left;
   display: block;
 }
+
+article.blog-teaser {
+    padding-bottom: 20px;
+}
