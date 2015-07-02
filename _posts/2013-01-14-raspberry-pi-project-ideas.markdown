@@ -15,7 +15,7 @@ I've talked to a lot of people who bought one in the early days, and very few pe
 
 Ale is good, brewing sounds fun, but given the numerous brewing failures of a good friend in the past, I suspect temperature controlling the brewing process is more important than he realised. The concept here is dead simple: place a brewing vessel inside a fridge, alongside a 100W lightbulb. Use a Raspberry Pi to turn on either the fridge or the light to cool or heat the beer. I've recently been tipped off about the <a title="Belkin WeMo" href="http://www.belkin.com/uk/c/WSWH" target="_blank">Belkin Wemo</a> switchable power outlet which should reduce the hacking time (I don't fancy spending a week hacking up a 13A switching board). Pretty neat project, especially if I can get some beer out of it.
 
-**Stop-motion video  
+**Stop-motion video
 **
 
 It'd be fun  to rig up a webcam or even a half decent digital camera via the Pi's USB and do periodic photographs in order to make a stop motion video. From the apartment I've got a great view of the Liverpool 360 wheel and part of the Albert Docks so it could make for quite a spectacular video. Anyone got an old digicam up for grabs?

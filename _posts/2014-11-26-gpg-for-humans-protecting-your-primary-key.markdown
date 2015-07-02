@@ -21,7 +21,7 @@ When you create a GPG public/private keypair, by default you get a *primary* pub
     pub 4096R/0x309F635DAD1B5517 created: 2014-10-31 expires: 2015-10-31 usage: SC 
      trust: ultimate validity: ultimate
     sub 4096R/0x627B1B4E8E532C34 created: 2014-10-31 expires: 2015-10-31 usage: E
-    
+
 
 The trouble is, the primary key with its Certify capability is too powerful. If someone steals your primary key, the Certify capability allows them to certify other people's keys, they can generate new subkeys, revoke your keys and so on. They could even generate new subkeys and revoke your subkeys - totally stealing your identity!
 
@@ -80,7 +80,7 @@ First, add a Sign subkey:
     sub  4096R/0x0AC6AD63E8E8A9B0  created: 2014-10-31  expires: 2015-10-31  usage: S   
     [ultimate] (1). Paul Michael Furley <paul@paulfurley.com>
     gpg> save
-    
+
 
 Success! Note that there's now a primary key - `pub` - and two subkeys - `sec`. See how the last key with id `0x0AC6AD63E8E8A9B0` has usage S which means Sign.
 
@@ -89,14 +89,14 @@ Success! Note that there's now a primary key - `pub` - and two subkeys - `sec`. 
 At this point we can make a **full** copy (backup) of our keyring (primary and subkeys, public and secret parts):
 
     $ gpg --export --armor 0x309F635DAD1B5517 > 0x309F635DAD1B5517.full_backup.asc
-    
+
 
 ### Create a Partial Backup (Subkeys)
 
 Now we can export the keyring *without* the secret part of the primary key. This will become our every-day keyring:
 
     $ gpg --export-secret-subkeys --armor 0x309F635DAD1B5517 > 0x309F635DAD1B5517.only_subkeys.asc
-    
+
 
 ### Nuke Your GPG Directory
 
@@ -104,7 +104,7 @@ Move aside your `~/.gnupg/` directory to start afresh. You'll need to restore yo
 
     $ mv --no-clobber ~/.gnupg ~/.gnupg.BAK
     $ mkdir ~/.gnupg && cp ~/.gnupg.BAK/gpg.conf ~/.gnupg
-    
+
 
 ### Import Your Partial Backup (Subkeys)
 
@@ -117,7 +117,7 @@ Finally, import your partial backup and peek at your secret keys:
     uid                            Paul Michael Furley <paul@paulfurley.com>
     ssb   4096R/0x627B1B4E8E532C34 2014-10-31 [expires: 2015-10-31]
     ssb   4096R/0x0AC6AD63E8E8A9B0 2014-10-31 [expires: 2015-10-31]
-    
+
 
 Success! See how the `sec` has changed to `sec#` to signify that the secret key is missing.
 
@@ -133,12 +133,12 @@ And that's the topic for next week.
 
 ## Homework!
 
-  * Some more in-depth reading: 
+  * Some more in-depth reading:
       * <https://apapadop.wordpress.com/2013/08/21/using-gnupg-with-qubesos/>
       * <http://spin.atomicobject.com/2013/11/24/secure-gpg-keys-guide/>
       * <http://security.stackexchange.com/a/31598>
   * Read up on Diceware passphrases at diceware.com
-  * For the next post, you will need: 
+  * For the next post, you will need:
       * 2 computers - normal machine + a spare (2 is better but not essential)
       * 3x USB sticks (at least 4GB)
       * Ubuntu 14.04 LTS Desktop LiveCD installed on one of the USB sticks with no persistent storage
