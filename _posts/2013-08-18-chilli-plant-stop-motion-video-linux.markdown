@@ -5,8 +5,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - GbhDQz6NevHH
-categories:
-  - Linux
+category: sideprojects
 ---
 I love hot food so a [grow-your-own chilli plant][1] kit was a great present to receive last Christmas.
 

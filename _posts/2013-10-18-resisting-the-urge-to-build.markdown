@@ -8,8 +8,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - r5F56CBO08O7
-categories:
-  - Startups
+category: startups
 ---
 You may remember a few months back I launched a new site - *minutemate.co.uk* - which helps you to monitor your mobile phone usage and alert you if you've overspent your monthly minutes, texts and so on.
 

@@ -8,8 +8,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - QkXNXtg4Q9jJ
-categories:
-  - 'Arduino &amp; Raspberry Pi'
+category: arduinoraspberrypi
 ---
 *[Arduino](http://www.arduino.cc) turned out to be the perfect match for <a title="JF Machines Ltd, digital inkjet printing machine manufacturers" href="http://www.jfmachines.co.uk" target="_blank">JF Machines Ltd</a>, a manufacturer of industrial digital printing machines. The open source platform offered them supply security, enormous flexibility and simple PC interfacing, all at an incredible price.*
 

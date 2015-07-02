@@ -8,9 +8,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - 3GmOdPGWGAGS
-categories:
-  - Linux
-  - Python
+category: sideprojects
 ---
 At the heart of my last project MinuteMate was the ability to programatically retrieve billing information from my Vodafone online account.
 

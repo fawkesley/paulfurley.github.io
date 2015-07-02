@@ -5,8 +5,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - 81h7ekhV6Ktc
-categories:
-  - Information Security
+category: publicspeaking
 ---
 ## Beneath the Surface: An Introduction to Information Hiding
 

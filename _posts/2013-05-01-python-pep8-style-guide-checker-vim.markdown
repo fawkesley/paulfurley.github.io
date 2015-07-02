@@ -5,9 +5,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - iVTIOA1h7VFn
-categories:
-  - Linux
-  - Python
+category: python
 ---
 ## Using Pathogen, Syntastic and flake8
 

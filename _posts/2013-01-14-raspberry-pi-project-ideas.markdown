@@ -5,8 +5,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - 36cQVhOwiBU7
-categories:
-  - 'Arduino &amp; Raspberry Pi'
+category: sideprojects
 ---
 I finally got my hands on a Raspberry Pi this Christmas, long overdue I appreciate. I'd done a fair amount of industrial work with the Arduino and got on very well with it. The slightly higher level and versatility of the Raspberry Pi is pretty exciting.
 

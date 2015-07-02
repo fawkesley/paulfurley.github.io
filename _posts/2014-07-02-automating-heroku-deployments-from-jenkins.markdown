@@ -5,9 +5,8 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - teqdflOi5i3O
-categories:
-  - Linux
-  - Startups
+category: devops
+
 ---
 *At Sea Level Research we deploy to Heroku staging then production from Jenkins, with automatic database backups & migrations. Read on to find out how.*
 

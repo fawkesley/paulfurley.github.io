@@ -5,8 +5,8 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - 7WyLGtNqsbTV
-categories:
-  - Python
+category: python
+
 ---
 If you've ever had to deploy Python on Windows you'll know it's a headache. If, like me, you develop in Linux, it's a positive migraine. Hopefully I can help...
 

@@ -8,8 +8,8 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - X7tqqIH9QDMp
-categories:
-  - GPG For Humans
+category: gpgforhumans
+
 ---
 Cryptography, or crypto for short, offers myriad benefits far beyond writing secret messages. Crytography is already in massive, widespread use, underpinning many industries such as finance, law and journalism, as well as creative systems like the Bitcoin crypto currency.
 
