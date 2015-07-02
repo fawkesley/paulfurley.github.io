@@ -5,8 +5,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - i44qbxwIVkvo
-categories:
-  - Information Security
+category: privacy
 ---
 ## NHS Care Data
 

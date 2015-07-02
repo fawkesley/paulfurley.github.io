@@ -5,8 +5,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - LArxPw3L0Kiz
-categories:
-  - 'Arduino &amp; Raspberry Pi'
+category: arduinoraspberrypi
 ---
 I recently returned from Slovenia, where I'd been surprised by the amount of open wireless hotspots around. Anecdotally it seems that Slovenians are far more willing to share their Internet than us Brits. This wasn't always the case - I remember often using open wireless all the time in the past.
 

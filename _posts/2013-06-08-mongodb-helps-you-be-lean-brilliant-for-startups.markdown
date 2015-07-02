@@ -5,8 +5,7 @@ bfa_virtual_template:
   - hierarchy
 sfw_pwd:
   - 0czU7hXrfCTT
-categories:
-  - Linux
+category: startups
 ---
 Context: I've just spent every spare hour of my life for two weeks working on a product, and <a href="http://secure.minutemate.co.uk/minutes-and-data-usage-alerts/" target="_blank">yesterday evening I launched it</a>.
 
