@@ -20,34 +20,34 @@ $ mkdir -p ~/.vim/autoload ~/.vim/bundle<br />
 $ curl 'https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim' > ~/.vim/autoload/pathogen.vim<br />
 `
 
-Make pathogen run when starting up vim.  
+Make pathogen run when starting up vim.
 `<br />
 $ echo 'call pathogen#infect()' >> ~/.vimrc<br />
 `
 
-If you don't already have the following lines in your ~/.vimrc file, you'll need to add these too:  
+If you don't already have the following lines in your ~/.vimrc file, you'll need to add these too:
 `<br />
 syntax on<br />
 filetype plugin indent on<br />
 `
 
-Test that pathogen is installed (inside vim). If you get an error it's probably because you've omitted `'call pathogen#infect()'`  
+Test that pathogen is installed (inside vim). If you get an error it's probably because you've omitted `'call pathogen#infect()'`
 `<br />
 :Helptags<br />
 `
 
-Install latest Syntastic syntax checker.  
+Install latest Syntastic syntax checker.
 `<br />
 $ cd ~/.vim/bundle<br />
 $ git clone https://github.com/scrooloose/syntastic.git<br />
 `
 
-Test syntastic (inside vim)  
+Test syntastic (inside vim)
 `<br />
 :h syntastic<br />
 `
 
-Install flake8 (pep8, Pyflakes and Ned Batchelder's McCabe script)  
+Install flake8 (pep8, Pyflakes and Ned Batchelder's McCabe script)
 `<br />
 $ sudo pip install flake8     # install globally<br />
 `

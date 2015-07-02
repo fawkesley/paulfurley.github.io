@@ -26,18 +26,18 @@ So what's a fingerprint?
 
 Unfortunately GPG has three (at least?) ways of identifying a key. Here are the three ways for my current public key:
 
-1. Short ID, for example `AD1B5517`  
-2. Long ID, for example `0x309F635DAD1B5517`  
+1. Short ID, for example `AD1B5517`
+2. Long ID, for example `0x309F635DAD1B5517`
 3. Fingerprint, for example `A999 B749 8D1A 8DC4 73E5 3C92 309F 635D AD1B 5517`
 
 To cut a long story short, *don't ever use short ids* - <a href="http://yro.slashdot.org/story/11/12/27/0044242/gnupg-short-id-collision-has-occurred" target="_blank">they are not secure</a>. But do be aware of them as you are likely to encounter them - alas, not everyone is using long ids yet <img src="https://paulfurley.com/wp-includes/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />
 
 The fingerprint is what you use to compare and verify a key. Supposing you knew me well enough to identify me in person. It would be fairly easy to acquire and verify my public key, perhaps like this:
 
-1. You search a keyserver for my email address, and it shows you a key with id `0x309F635DAD1B5517`  
-2. You download key `0x309F635DAD1B5517` and examine its fingerprint  
-3. You meet me (in person) and ask me to read my key's fingerprint.  
-4. You verify every single digit of the fingerprint.  
+1. You search a keyserver for my email address, and it shows you a key with id `0x309F635DAD1B5517`
+2. You download key `0x309F635DAD1B5517` and examine its fingerprint
+3. You meet me (in person) and ask me to read my key's fingerprint.
+4. You verify every single digit of the fingerprint.
 5. You *sign* my key to say that you've verified it belongs to me.
 
 In this ideal scenario, you'd have a pretty good idea that I owned the public key you'd just downloaded. Now you could send me an encrypted email or verify a message or file that I've signed.
