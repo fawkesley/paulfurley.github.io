@@ -21,7 +21,7 @@ The best bit about this talk was describing the approach they took. Rather than 
 
 ## Intro to Genetic Algorithms
 
-[Ethar](https://twitter.com/etharuk) gave us a quick primer on Genetic Algorithms and how their approach to solving problems mimics evolution. Massive credit to him for building us a [little demo rig](http://t.co/41aHGi4bIH) last night in D3. It showed the population of 100 as circles, where their "fitness" was denoted by their greyscale value. Awesome.
+[Ethar](https://twitter.com/etharuk) gave us a quick primer on Genetic Algorithms and how their approach to solving problems mimics evolution. Massive credit to him for building us a [little demo rig](https://jsbin.com/dapocegohi/edit?html,js,output) last night in D3. It showed the population of 100 as circles, where their "fitness" was denoted by their greyscale value. Awesome.
 
 ## Introduction to Tor
 
