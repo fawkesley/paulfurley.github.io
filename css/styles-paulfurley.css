@@ -10,3 +10,7 @@ span.navbar-site-title {
 article.blog-teaser {
     padding-bottom: 20px;
 }
+
+.blog-post a {
+    text-decoration: underline;
+}
