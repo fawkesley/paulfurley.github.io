@@ -88,7 +88,7 @@ Success! Note that there's now a primary key - `pub` - and two subkeys - `sec`. 
 
 At this point we can make a **full** copy (backup) of our keyring (primary and subkeys, public and secret parts):
 
-    $ gpg --export --armor 0x309F635DAD1B5517 > 0x309F635DAD1B5517.full_backup.asc
+    $ gpg --export-secret-keys --armor 0x309F635DAD1B5517 > 0x309F635DAD1B5517.full_backup.asc
 
 
 ### Create a Partial Backup (Subkeys)
