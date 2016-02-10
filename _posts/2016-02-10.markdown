@@ -1,0 +1,37 @@
+---
+title: Let's Encrypt with NGINX and Jenkins
+permalink: /lets-encrypt-with-nginx-and-jenkins/
+# image: resisting-the-urge-to-build-thumbnail.jpg
+category: backend
+---
+
+*How to setup NGINX as an SSL-terminating reverse proxy with Let's Encrypt
+and automatic certificate renewal.*
+
+## Jenkins holds secrets
+
+I find Jenkins really handy for automating repeatable shell tasks like creating
+and rotating backups. It's great to have this stuff in one place where I can
+kick off jobs at the touch of a button. That's especially handy if I don't have
+access to my laptop and its SSH keys. However, that does mean that Jenkins has
+access to various secrets and keys and I'd like to keep safe.
+
+## Locking down web access to Jenkins
+
+My requirements for locking down web access to the box were fairly
+straightforward:
+
+1. TLS/SSL connection between me and Jenkins
+2. Single user. Keep it simple.
+3. Authentication handled by NGINX, not Jenkins.
+
+I'm not sure whether I'm justified with point 3, but I feel like I can rely
+more on NGINX doing authentication than I can Jenkins. In the past I've
+been messing with Jenkins configuration and accidentally *turned off* user
+authentication. Sure, that's my fault, but it was a bit too easy to do that.
+
+## Getting certificates with Let's Encrypt
+
+## Automatically renewing Let's Encrypt certificates
+
+## HTTP Basic Authentication with NGINX
