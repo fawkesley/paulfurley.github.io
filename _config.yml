@@ -11,4 +11,6 @@ defaults:
       author: "Paul M Furley"
 
 permalink: /:title
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
