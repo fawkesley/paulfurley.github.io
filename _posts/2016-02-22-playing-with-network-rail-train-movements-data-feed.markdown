@@ -37,7 +37,7 @@ type 3: "Train Movement". These are the instantaneous location reports from a
 particular location, and they look like
 this:
 
-```javascript
+```json
 {
     "body": {
         "variation_status": "LATE",
@@ -121,7 +121,7 @@ In order to map STANOX to locations, there's something called the
 "Reference Data" (also requiring a developer account). That leads to a 6.5MB
 JSON file called `CORPUSExtract.json` containing records that look like this:
 
-```
+```json
 {
     "TIPLOC": "LVRPLSH",
     "UIC": "22460",
@@ -154,7 +154,7 @@ That was a quick whizz through. I wrote some Python to decode these messages
 and put it on [Github][github-repo] (although at the time of writing it's in a
 branch). This is the output after decoding (and re-serializing as JSON):
 
-```
+```json
 {
     "planned_event_type": "departure",
     "status": "on_time",
