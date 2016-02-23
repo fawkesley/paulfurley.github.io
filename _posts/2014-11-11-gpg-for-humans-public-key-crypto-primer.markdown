@@ -7,7 +7,10 @@ sfw_pwd:
   - of6Qwpv4RDVy
 category: gpgforhumans
 ---
-Public-key or "asymmetric" crypto is a cunning piece of maths (which I happily don't understand) that's at the heart of GPG. The incredible thing it allows is for us to communicate securely (signing & encryption) without having agreed a secret in advance. This turns out to be a big deal.
+Public-key or "asymmetric" crypto is a cunning piece of maths (which I happily
+don't understand) that's at the heart of GPG. The incredible thing it allows is
+for us to communicate securely (signing and encryption) without having agreed a
+secret in advance. This turns out to be a big deal.
 
 In GPG you create a *pair* of keys which are fundamentally related. One half is your *secret* or *private* key, which you keep strictly to yourself. The other half is your *public* key which you tell everyone about, if you so wish.
 

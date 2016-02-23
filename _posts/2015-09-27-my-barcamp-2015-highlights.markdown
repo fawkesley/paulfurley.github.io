@@ -2,7 +2,9 @@
 title: "My Barcamp 2015 Highlights"
 ---
 
-I've just parted ways with a friendly & interesting bunch of people - exactly what I'd expect from a Barcamp crowd. This was my second Barcamp and it was fab to go with a bit more understanding of what to expect and how it works.
+I've just parted ways with a friendly and interesting bunch of people - exactly
+what I'd expect from a Barcamp crowd. This was my second Barcamp and it was fab
+to go with a bit more understanding of what to expect and how it works.
 
 In case you aren't familiar, Barcamp is an unconference. There are no scheduled speakers - that's the job of the Barcampers, and everyone's encouraged to give a talk.
 
